@@ -28,7 +28,9 @@ the staff-app tab, and delivers the scan there.
 
 ## Updating
 
-Download the latest DMG, drag the new copy over the old one in Applications, and run the
-same `xattr -cr` line again. After an update macOS may re-ask for Accessibility and the
-"control Chrome" permission — approve them again. (The app is unsigned, so an update
-looks like a new app to macOS.)
+1. **Quit the running app first** — click the menu-bar QR icon and choose *Quit BKUP Scan Helper*. Dragging a new copy into Applications does **not** replace the copy already running in memory; this is the #1 reason an update seems to "not work".
+2. Download the latest DMG and drag the new app over the old one in Applications.
+3. In Terminal run `xattr -cr "/Applications/BKUP Scan Helper.app"` again.
+4. Open it. Accessibility carries over; on the first scan re-approve the "control Chrome" prompt if asked. (The app is unsigned, so an update looks like a new app to macOS.)
+
+**Verify which build is running:** click the menu-bar icon — the bottom of the menu shows *Version x.y.z*. It should read the version you just installed.
