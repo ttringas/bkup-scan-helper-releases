@@ -5,6 +5,14 @@
     <description>Updates for BKUP Scan Helper.</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.1</title>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 03 Jul 2026 21:08:32 -0400</pubDate>
+      <enclosure url="https://github.com/ttringas/bkup-scan-helper-releases/releases/download/v1.3.1/BKUP-Scan-Helper-1.3.1.zip" type="application/octet-stream" sparkle:edSignature="wctLSiEztsqUXkizO6lXq87U46mM5abmj8Ths4iyW7ty5mAInjvPetzB8JKqGWv1Pv+/WpJsGsnYjMshDEjzCg==" length="1179679" />
+    </item>
+    <item>
       <title>Version 1.3.0</title>
       <sparkle:version>6</sparkle:version>
       <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
